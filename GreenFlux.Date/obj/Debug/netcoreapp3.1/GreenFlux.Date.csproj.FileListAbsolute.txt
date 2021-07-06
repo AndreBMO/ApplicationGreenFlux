@@ -1,0 +1,8 @@
+C:\Temp\GreenFluxAPI\GreenFlux.Date\obj\Debug\netcoreapp3.1\GreenFlux.Date.AssemblyInfoInputs.cache
+C:\Temp\GreenFluxAPI\GreenFlux.Date\obj\Debug\netcoreapp3.1\GreenFlux.Date.AssemblyInfo.cs
+C:\Temp\GreenFluxAPI\GreenFlux.Date\obj\Debug\netcoreapp3.1\GreenFlux.Date.csproj.CoreCompileInputs.cache
+C:\Temp\GreenFluxAPI\GreenFlux.Date\bin\Debug\netcoreapp3.1\GreenFlux.Date.deps.json
+C:\Temp\GreenFluxAPI\GreenFlux.Date\bin\Debug\netcoreapp3.1\GreenFlux.Date.dll
+C:\Temp\GreenFluxAPI\GreenFlux.Date\bin\Debug\netcoreapp3.1\GreenFlux.Date.pdb
+C:\Temp\GreenFluxAPI\GreenFlux.Date\obj\Debug\netcoreapp3.1\GreenFlux.Date.dll
+C:\Temp\GreenFluxAPI\GreenFlux.Date\obj\Debug\netcoreapp3.1\GreenFlux.Date.pdb

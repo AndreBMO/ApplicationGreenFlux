@@ -14,7 +14,6 @@ C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\GreenFluxAPI.csprojAss
 C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\GreenFluxAPI.AssemblyInfoInputs.cache
 C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\GreenFluxAPI.AssemblyInfo.cs
 C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\GreenFluxAPI.csproj.CoreCompileInputs.cache
-C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\GreenFluxAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\GreenFluxAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\staticwebassets\GreenFluxAPI.StaticWebAssets.Manifest.cache
 C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\staticwebassets\GreenFluxAPI.StaticWebAssets.xml
@@ -24,3 +23,13 @@ C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\GreenFluxAPI.csproj.Co
 C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\GreenFluxAPI.dll
 C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\GreenFluxAPI.pdb
 C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\GreenFluxAPI.genruntimeconfig.cache
+C:\Temp\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Temp\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Temp\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Temp\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp3.1\Mapster.dll
+C:\Temp\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp3.1\Mapster.Core.dll
+C:\Temp\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp3.1\GreenFlux.Domain.dll
+C:\Temp\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp3.1\GreenFlux.Infrastructure.dll
+C:\Temp\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp3.1\GreenFlux.Domain.pdb
+C:\Temp\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp3.1\GreenFlux.Infrastructure.pdb
+C:\Temp\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp3.1\GreenFluxAPI.MvcApplicationPartsAssemblyInfo.cs

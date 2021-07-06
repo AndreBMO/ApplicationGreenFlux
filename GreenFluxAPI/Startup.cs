@@ -1,16 +1,14 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.OpenApi.Models;
+using GreenFluxAPI.Contract;
+using GreenFluxAPI.Services.Country;
+using GreenFluxAPI.Services.Holiday;
+using GreenFlux.Infrastructure.Interfaces;
+using GreenFlux.Infrastructure;
 
 namespace GreenFluxAPI
 {
@@ -32,6 +30,19 @@ namespace GreenFluxAPI
             {
                 c.SwaggerDoc(name: "v1", new OpenApiInfo { Title = "GreenFluxAPI", Version = "v1" });
             });
+
+            services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.Converters.Add(new DateTimeConverter());
+                options.JsonSerializerOptions.Converters.Add(new HolidayTypeConverter());
+            });
+
+            #region Services
+            services.AddScoped<ICountry, Country>();
+            services.AddScoped<IHoliday, Holiday>();
+            services.AddScoped<ICountryService, CountryService>();
+            services.AddScoped<IHolidayService, HolidayService>();
+            #endregion            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
