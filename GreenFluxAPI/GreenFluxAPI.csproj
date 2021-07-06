@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GreenFlux.Date\GreenFlux.Domain.csproj" />
+    <ProjectReference Include="..\GreenFlux.Domain\GreenFlux.Domain.csproj" />
     <ProjectReference Include="..\GreenFlux.Repository\GreenFlux.Infrastructure.csproj" />
   </ItemGroup>
 

@@ -1,0 +1,16 @@
+C:\Temp\GreenFluxAPI\GreenFlux.Date\bin\Debug\netcoreapp3.1\GreenFlux.Domain.deps.json
+C:\Temp\GreenFluxAPI\GreenFlux.Date\bin\Debug\netcoreapp3.1\GreenFlux.Domain.dll
+C:\Temp\GreenFluxAPI\GreenFlux.Date\bin\Debug\netcoreapp3.1\GreenFlux.Domain.pdb
+C:\Temp\GreenFluxAPI\GreenFlux.Date\obj\Debug\netcoreapp3.1\GreenFlux.Domain.AssemblyInfoInputs.cache
+C:\Temp\GreenFluxAPI\GreenFlux.Date\obj\Debug\netcoreapp3.1\GreenFlux.Domain.AssemblyInfo.cs
+C:\Temp\GreenFluxAPI\GreenFlux.Date\obj\Debug\netcoreapp3.1\GreenFlux.Domain.csproj.CoreCompileInputs.cache
+C:\Temp\GreenFluxAPI\GreenFlux.Date\obj\Debug\netcoreapp3.1\GreenFlux.Domain.dll
+C:\Temp\GreenFluxAPI\GreenFlux.Date\obj\Debug\netcoreapp3.1\GreenFlux.Domain.pdb
+C:\Temp\GreenFluxAPI\GreenFlux.Domain\bin\Debug\netcoreapp3.1\GreenFlux.Domain.deps.json
+C:\Temp\GreenFluxAPI\GreenFlux.Domain\bin\Debug\netcoreapp3.1\GreenFlux.Domain.dll
+C:\Temp\GreenFluxAPI\GreenFlux.Domain\bin\Debug\netcoreapp3.1\GreenFlux.Domain.pdb
+C:\Temp\GreenFluxAPI\GreenFlux.Domain\obj\Debug\netcoreapp3.1\GreenFlux.Domain.AssemblyInfoInputs.cache
+C:\Temp\GreenFluxAPI\GreenFlux.Domain\obj\Debug\netcoreapp3.1\GreenFlux.Domain.AssemblyInfo.cs
+C:\Temp\GreenFluxAPI\GreenFlux.Domain\obj\Debug\netcoreapp3.1\GreenFlux.Domain.csproj.CoreCompileInputs.cache
+C:\Temp\GreenFluxAPI\GreenFlux.Domain\obj\Debug\netcoreapp3.1\GreenFlux.Domain.dll
+C:\Temp\GreenFluxAPI\GreenFlux.Domain\obj\Debug\netcoreapp3.1\GreenFlux.Domain.pdb

@@ -1,8 +1,8 @@
-C:\Temp\GreenFluxAPI\GreenFlux.Repository\obj\Debug\netcoreapp3.1\GreenFlux.Infrastructure.AssemblyInfoInputs.cache
-C:\Temp\GreenFluxAPI\GreenFlux.Repository\obj\Debug\netcoreapp3.1\GreenFlux.Infrastructure.AssemblyInfo.cs
-C:\Temp\GreenFluxAPI\GreenFlux.Repository\obj\Debug\netcoreapp3.1\GreenFlux.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Temp\GreenFluxAPI\GreenFlux.Repository\bin\Debug\netcoreapp3.1\GreenFlux.Infrastructure.deps.json
 C:\Temp\GreenFluxAPI\GreenFlux.Repository\bin\Debug\netcoreapp3.1\GreenFlux.Infrastructure.dll
 C:\Temp\GreenFluxAPI\GreenFlux.Repository\bin\Debug\netcoreapp3.1\GreenFlux.Infrastructure.pdb
+C:\Temp\GreenFluxAPI\GreenFlux.Repository\obj\Debug\netcoreapp3.1\GreenFlux.Infrastructure.AssemblyInfoInputs.cache
+C:\Temp\GreenFluxAPI\GreenFlux.Repository\obj\Debug\netcoreapp3.1\GreenFlux.Infrastructure.AssemblyInfo.cs
+C:\Temp\GreenFluxAPI\GreenFlux.Repository\obj\Debug\netcoreapp3.1\GreenFlux.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Temp\GreenFluxAPI\GreenFlux.Repository\obj\Debug\netcoreapp3.1\GreenFlux.Infrastructure.dll
 C:\Temp\GreenFluxAPI\GreenFlux.Repository\obj\Debug\netcoreapp3.1\GreenFlux.Infrastructure.pdb

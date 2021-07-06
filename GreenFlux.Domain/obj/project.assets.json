@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\GreenFluxAPI\\GreenFlux.Date\\GreenFlux.Domain.csproj",
+      "projectUniqueName": "C:\\Temp\\GreenFluxAPI\\GreenFlux.Domain\\GreenFlux.Domain.csproj",
       "projectName": "GreenFlux.Domain",
-      "projectPath": "C:\\Temp\\GreenFluxAPI\\GreenFlux.Date\\GreenFlux.Domain.csproj",
+      "projectPath": "C:\\Temp\\GreenFluxAPI\\GreenFlux.Domain\\GreenFlux.Domain.csproj",
       "packagesPath": "C:\\Users\\andre.beletti\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\GreenFluxAPI\\GreenFlux.Date\\obj\\",
+      "outputPath": "C:\\Temp\\GreenFluxAPI\\GreenFlux.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",

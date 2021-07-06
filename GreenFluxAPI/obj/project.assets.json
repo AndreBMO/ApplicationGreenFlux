@@ -4933,8 +4933,8 @@
     },
     "GreenFlux.Domain/1.0.0": {
       "type": "project",
-      "path": "../GreenFlux.Date/GreenFlux.Domain.csproj",
-      "msbuildProject": "../GreenFlux.Date/GreenFlux.Domain.csproj"
+      "path": "../GreenFlux.Domain/GreenFlux.Domain.csproj",
+      "msbuildProject": "../GreenFlux.Domain/GreenFlux.Domain.csproj"
     },
     "GreenFlux.Infrastructure/1.0.0": {
       "type": "project",
@@ -4987,8 +4987,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Temp\\GreenFluxAPI\\GreenFlux.Date\\GreenFlux.Domain.csproj": {
-              "projectPath": "C:\\Temp\\GreenFluxAPI\\GreenFlux.Date\\GreenFlux.Domain.csproj"
+            "C:\\Temp\\GreenFluxAPI\\GreenFlux.Domain\\GreenFlux.Domain.csproj": {
+              "projectPath": "C:\\Temp\\GreenFluxAPI\\GreenFlux.Domain\\GreenFlux.Domain.csproj"
             },
             "C:\\Temp\\GreenFluxAPI\\GreenFlux.Repository\\GreenFlux.Infrastructure.csproj": {
               "projectPath": "C:\\Temp\\GreenFluxAPI\\GreenFlux.Repository\\GreenFlux.Infrastructure.csproj"
