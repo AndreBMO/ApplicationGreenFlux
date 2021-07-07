@@ -24,7 +24,7 @@ namespace GreenFluxAPI.Controllers
         }
 
         /// <summary>
-        /// Get Public Holidays
+        /// Get country with most holidays this year
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
@@ -53,7 +53,7 @@ namespace GreenFluxAPI.Controllers
         }
 
         /// <summary>
-        /// 
+        /// Get month with most holidays compared globally
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
@@ -82,7 +82,7 @@ namespace GreenFluxAPI.Controllers
         }
 
         /// <summary>
-        /// 
+        /// Get country with most unique holidays
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
