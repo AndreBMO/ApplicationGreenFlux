@@ -4,4 +4,17 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Interfaces\ICountry.cs" />
+    <Compile Remove="Repositories\Country.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GreenFlux.Domain\GreenFlux.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,4 @@
 ﻿using GreenFluxAPI.Domain.Dto;
-using GreenFluxAPI.Services.Country;
 using GreenFluxAPI.Services.Holiday;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -16,34 +15,29 @@ namespace GreenFluxAPI.Controllers
     /// </summary>
     public class MainController : Controller
     {
-        private readonly ICountryService _countryService;
+        //private readonly ICountryService _countryService;
         private readonly IHolidayService _holidayService;
 
-        public MainController(ICountryService countryService, IHolidayService holidayService)
+        public MainController(IHolidayService holidayService)
         {
-            _countryService = countryService;
             _holidayService = holidayService;
         }
 
         /// <summary>
         /// Get Public Holidays
         /// </summary>
-        /// <param name="countryCode"></param>
         /// <param name="year"></param>
         /// <returns></returns>
         [HttpGet]
-        [Route("Get/{countryCode}/{year}")]
-        public async Task<ActionResult<IEnumerable<HolidayDto>>> GetPublicHoliday(
-            [FromRoute][Required] string countryCode,
+        [Route("Get/CountryWithMostHolidaysThisYear/{year}")]
+        public async Task<ActionResult<IEnumerable<HolidayDto>>> GetCountryWithMostHolidaysThisYear(
             [FromRoute][Required] int year
             )
         {
             try
             {
-                var response = _holidayService.GetPublicHolidays(countryCode, year);
-                var apiResponse = await response.Result.Content.ReadAsStringAsync();
-                var ret = JsonConvert.DeserializeObject<IEnumerable<HolidayDto>>(apiResponse);
-
+                var ret = await _holidayService.GetCountryWithMostHolidays(year);
+                
                 if (ret != null)
                 {
                     return this.StatusCode(StatusCodes.Status200OK, ret);
@@ -59,21 +53,48 @@ namespace GreenFluxAPI.Controllers
         }
 
         /// <summary>
-        /// Get Country Information
+        /// 
         /// </summary>
-        /// <param name="countryCode"></param>
+        /// <param name="year"></param>
         /// <returns></returns>
         [HttpGet]
-        [Route("Get/{countryCode}")]
-        public async Task<ActionResult<IEnumerable<CountryDto>>> GetInfoByCountry(
-            [FromRoute][Required] string countryCode
+        [Route("Get/MonthWithMostHolidaysGlobally/{year}")]
+        public async Task<ActionResult<IEnumerable<HolidayDto>>> GetMonthWithMostHolidaysGlobally(
+            [FromRoute][Required] int year
             )
         {
             try
             {
-                var response = _countryService.GetCountryInfo(countryCode);
-                var apiResponse = await response.Result.Content.ReadAsStringAsync();
-                var ret = JsonConvert.DeserializeObject<CountryDto>(apiResponse);
+                var ret = await _holidayService.GetMonthWithMostHolidaysGlobally(year);
+
+                if (ret != null)
+                {
+                    return this.StatusCode(StatusCodes.Status200OK, ret);
+                }
+
+                return this.StatusCode(StatusCodes.Status404NotFound);
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("Get/CountryWithMostUniqueHolidays/{year}")]
+        public async Task<ActionResult<IEnumerable<HolidayDto>>> GetCountryWithMostUniqueHolidays(
+            [FromRoute][Required] int year
+            )
+        {
+            try
+            {
+                var ret = await _holidayService.GetCountryWithMostUniqueHolidays(year);
 
                 if (ret != null)
                 {

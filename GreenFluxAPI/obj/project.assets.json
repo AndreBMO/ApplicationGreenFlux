@@ -1384,6 +1384,10 @@
       "GreenFlux.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "GreenFlux.Domain": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
         "compile": {
           "bin/placeholder/GreenFlux.Infrastructure.dll": {}
         },

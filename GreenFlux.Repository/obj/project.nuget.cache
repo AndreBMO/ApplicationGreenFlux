@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wlmRWnpS7k4kS3WFsrc9CltLWVlAe7f+GagAbbSejWsyilaqJERWp/YrKp/weEaooGlM8Wn2Ngeohz8UOap+gw==",
+  "dgSpecHash": "gHRZ9C+qldV6lfgiatuN4Us1xT0tjtYE5RQwIvvhme1ep/dF+YcnyrsNddZdjCZlS/UQqxw2CWnEzlyuGZ/LjQ==",
   "success": true,
   "projectFilePath": "C:\\Temp\\GreenFluxAPI\\GreenFlux.Repository\\GreenFlux.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\andre.beletti\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

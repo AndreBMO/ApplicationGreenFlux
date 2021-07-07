@@ -3,18 +3,20 @@ using GreenFlux.Infrastructure;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using GreenFluxAPI.Domain.Dto;
+using System.Linq;
 
 namespace GreenFlux.Test
 {
     public class HolidayTest
     {
         [Fact]
-        public async Task GetPublicHolidayTestNotFound()
+        public async Task GetPublicHolidayTest()
         {
             Holiday holiday = new Holiday();
-            var publicHoliday = await holiday.GetPublicHolidays("ABCDE", 2021).Result.Content.ReadAsStringAsync();
+            var publicHoliday = await holiday.GetCountryWithMostHolidays(2021);
+            var list = publicHoliday.ToList();
             
-            Assert.Contains("Not Found", publicHoliday);
+            Assert.Equal("VE", list[0].CountryCode);
         }
     }
 }

@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Dto\CountryDto.cs" />
+    <Compile Remove="Model\Currency.cs" />
+    <Compile Remove="Model\Language.cs" />
+    <Compile Remove="Model\RegionalBloc.cs" />
+    <Compile Remove="Model\Translations.cs" />
+  </ItemGroup>
+
 </Project>

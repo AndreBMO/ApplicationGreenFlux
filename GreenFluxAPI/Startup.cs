@@ -5,7 +5,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using GreenFluxAPI.Contract;
-using GreenFluxAPI.Services.Country;
 using GreenFluxAPI.Services.Holiday;
 using GreenFlux.Infrastructure.Interfaces;
 using GreenFlux.Infrastructure;
@@ -38,9 +37,7 @@ namespace GreenFluxAPI
             });
 
             #region Services
-            services.AddScoped<ICountry, Country>();
             services.AddScoped<IHoliday, Holiday>();
-            services.AddScoped<ICountryService, CountryService>();
             services.AddScoped<IHolidayService, HolidayService>();
             #endregion            
         }
