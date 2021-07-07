@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace GreenFluxAPI.Controllers
 {
     /// <summary>
-    /// API's
+    /// Main
     /// </summary>
     public class MainController : Controller
     {

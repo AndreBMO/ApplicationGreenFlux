@@ -20,7 +20,7 @@
     "GreenFluxAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "GreenFluxAPI",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
